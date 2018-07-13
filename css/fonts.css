@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Proximanova';
+    src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proximanova-regular-webfont.woff2') format('woff2'),
+    url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+    url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),
+    url('../fonts/proximanova-regular-webfont.svg#proxima_novaregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proximanova';
+    src: url('../fonts/proxima_nova_bold-webfont.eot');
+    src: url('../fonts/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_nova_bold-webfont.woff') format('woff'),
+    url('../fonts/proxima_nova_bold-webfont.ttf') format('truetype'),
+    url('../fonts/proxima_nova_bold-webfont.svg#proxima_novabold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quadon Medium';
+    src: url('../fonts/rene_bieder_-_quadon_medium-webfont.eot');
+    src: url('../fonts/rene_bieder_-_quadon_medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rene_bieder_-_quadon_medium-webfont.woff2') format('woff2'),
+    url('../fonts/rene_bieder_-_quadon_medium-webfont.woff') format('woff'),
+    url('../fonts/rene_bieder_-_quadon_medium-webfont.ttf') format('truetype'),
+    url('../fonts/rene_bieder_-_quadon_medium-webfont.svg#quadonmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Wenger';
+    src:  url('../fonts/wenger.eot?jd4wpa');
+    src:  url('../fonts/wenger.eot?jd4wpa#iefix') format('embedded-opentype'),
+    url('../fonts/wenger.ttf?jd4wpa') format('truetype'),
+    url('../fonts/wenger.woff?jd4wpa') format('woff'),
+    url('../fonts/wenger.svg?jd4wpa#wenger') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="wenger-"], [class*=" wenger-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'wenger' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wenger-search:before {
+    content: "\e900";
+}
+.wenger-download:before {
+    content: "\e901";
+}
+.wenger-phone:before {
+    content: "\e902";
+}
+.wenger-email:before {
+    content: "\e903";
+}
+.wenger-facebook:before {
+    content: "\e904";
+}
+.wenger-twitter:before {
+    content: "\e905";
+}
+.wenger-linkedin:before {
+    content: "\e906";
+}
+.wenger-youtube:before {
+    content: "\e907";
+}
