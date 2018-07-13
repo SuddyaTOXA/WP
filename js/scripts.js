@@ -1,4 +1,11 @@
 jQuery(document).ready(function($) {
+    function prevent(){
+        $('.prevent, a[href="/broken"]').on('click', function(event){
+            event.preventDefault();
+        });
+    }
+    prevent();
+
 	// for smooth scroll
     smoothScroll.init({
         selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
@@ -6,4 +13,6 @@ jQuery(document).ready(function($) {
         easing: 'easeInQuad', // Easing pattern to use
         offset: 50 // Integer. How far to offset the scrolling anchor location in pixels
     });
+
+
 });
