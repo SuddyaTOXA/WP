@@ -6,7 +6,8 @@ jQuery(document).ready(function($) {
     }
     prevent();
 
-    //for FAQ
+
+    // for FAQ
     $('.faq-list > li').each(function() {
         var $this = $(this),
             h2    = $this.children('h2');
@@ -26,8 +27,10 @@ jQuery(document).ready(function($) {
             e.preventDefault();
             var a     = $(this).find('a'),
                 state = ( a.attr('aria-expanded') === 'false' ) ? true : false;
+
             a.attr('aria-expanded', state);
             panel.attr('aria-hidden', !state);
+
             if (state) {
                 $(this).addClass('open');
             } else {
