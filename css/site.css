@@ -1928,17 +1928,6 @@ img {
 /*----------------------------------------------------------------------------------*/
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* MEDIA */
 @media screen and (max-width: 1800px) {}
 
@@ -2339,7 +2328,7 @@ img {
 
 @media screen and (max-width: 1200px) { }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1060px) {
     .main-nav {
         padding-right: 30px;
     }
