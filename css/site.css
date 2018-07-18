@@ -2409,7 +2409,7 @@ a.btn:focus,
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     #footer .container,
     .section-content-image.left .content-box,
     .section-content-image .content-box,
