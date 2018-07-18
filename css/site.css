@@ -2328,7 +2328,7 @@ img {
 
 @media screen and (max-width: 1200px) { }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1024px) {
     .main-nav {
         padding-right: 30px;
     }
